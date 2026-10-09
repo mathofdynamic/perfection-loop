@@ -2,6 +2,8 @@
 
 [![skills.sh](https://skills.sh/b/mathofdynamic/perfection-loop)](https://skills.sh/mathofdynamic/perfection-loop)
 
+![Perfection Loop 3D banner](docs/images/perfection-loop-banner-3d.png)
+
 Evidence-first verification for AI-assisted software work.
 
 Perfection Loop is an Agent Skill that makes “done” a provable state. It gives an AI coding agent a repeatable way to define acceptance criteria, run the real application, capture the result, inspect it with independent reviewers, fix defects, and repeat until the final evidence is clean.
@@ -593,10 +595,14 @@ perfection-loop/
 ├── scripts/
 │   └── capture.py                        # Playwright capture and DOM checks
 └── docs/
+    ├── images/
+    │   └── perfection-loop-banner-3d.png
     └── screenshots/
         ├── perfection-loop-activity-root.png
         └── perfection-loop-capture-round.png
 ```
+
+The banner is a visual shorthand for the skill's operating model: captured evidence moves through inspection, independent judgment, repair, and another verification round until the result is defensible.
 
 The two documentation screenshots are part of this repository’s explanatory material. They are not required inputs for using the skill on another project.
 
